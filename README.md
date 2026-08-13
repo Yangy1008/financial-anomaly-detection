@@ -85,9 +85,9 @@ The insurance dataset is either synthetic or extremely clean. No method achieves
 >0.50 AUC using severity as ground truth. That's honest data quality—not a bug.
 
 **Applies to:**
-✅ Insurance/payments (point anomalies)
-✅ Fund settlements (multi-dimensional scoring)
-❌ AML compliance (needs behavioral, not statistical)
+Works: Insurance and payment anomalies (point-based detection)
+Works: Fund operations (multi-dimensional scoring)
+Does not work: AML compliance (requires behavioral patterns, not statistical anomalies)
 
 ---
 
